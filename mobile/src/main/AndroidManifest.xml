@@ -41,7 +41,6 @@
             android:value="190128000" />
 
         <activity
-            android:name=".ui.LauncherActivity"
             android:theme="@style/AppTheme.Launcher">
             <!-- This will have to be placed wherever the activity-alias is pointing to. -->
             <intent-filter>
