@@ -29,7 +29,7 @@ buildscript {
         compileSdkVersion = 29
         minSdkVersion = 21
         minTvSdkVersion = 21 // TV was introduced with Lollipop, min SDK should be 21.
-        targetSdkVersion = 29
+        targetSdkVersion = 19
 
         // App dependencies
         androidGradlePluginVersion = '3.4.1'
