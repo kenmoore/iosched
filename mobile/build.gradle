@@ -72,6 +72,10 @@ android {
                     "AIzaSyAhJx57ikQH9rYc8IT8W3d2As5cGHMBvuo"
 
             buildConfigField "String", "MAP_TILE_URL_BASE", "\"https://storage.googleapis.com/io2019-festivus/images/maptiles\""
+
+            // Ken Moore: added minification for debug build type to trigger error with proguard-rules.pro
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         staging {
             initWith debug
